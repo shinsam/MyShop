@@ -29,7 +29,9 @@
             android:layout_span="2"  />
     </TableRow>
     <TableRow>
-        <ImageView android:src="@drawable/map"/>
+        <ImageView
+            android:id="@+id/img_map"
+            android:src="@drawable/sub01_ico01"/>
         <TextView android:text="서울시 광평로..."/>
     </TableRow>
     <TableRow>
